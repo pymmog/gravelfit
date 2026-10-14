@@ -1,0 +1,68 @@
+# macOS and editor metadata
+.DS_Store
+._*
+.AppleDouble/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Generated builds, logs, test reports and screenshots
+build/
+build-*/
+.build/
+DerivedData/
+*.app/
+*.dSYM/
+*.xcresult/
+*.log
+*.profraw
+*.profdata
+*.dmg
+*.zip
+
+# Xcode state may contain local paths, account names and machine details
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Local settings, credentials and signing material
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+.ssh/
+.codex/
+.agents/
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# Private fitting data and recordings; keep generated test fixtures
+configuration.json
+session-*.json
+journal-*.jsonl
+GravelFit-*.csv
+GravelFit-*.json
+GravelFit-*.txt
+recordings/
+sessions/
+exports/
+screenshots/
+*.mov
+*.mp4
+*.m4v
+*.avi
+!GravelFitTests/Fixtures/*.mov
+!GravelFitTests/Fixtures/*.mp4
+
+# Python script caches
+__pycache__/
+*.py[cod]
